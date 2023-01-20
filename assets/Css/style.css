@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.group{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:100%;
+}
+
+html,
+h1{
+    background-color: #eef7fa;
+    text-decoration: underline;
+    color: #000000;
+    padding: 2%;
+}
+
+header{
+    text-align: center;
+}
+/* Mqc means Master coding quiz and is used in a class*/
+.Mqc{
+    text-align: center;
+}
+.coding{
+    color:#276d88
+}
+
+h3{
+  
+}
+
+#time{
+    color:#276d88
+}
