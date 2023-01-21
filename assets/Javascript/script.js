@@ -2,6 +2,18 @@ var timerEl = document.querySelector("#timer");
 var correctAnswerEL = document.querySelector("#correctAnswer");
 var wrongAnswerEL = document.querySelector(".wrong");
 var startButton = document.querySelector(".startButton");
+var btn1 = document.getElementById("btn1");
+var btn2 = document.getElementById("btn2");
+var btn3 = document.getElementById("btn3");
+var btn4 = document.getElementById("btn4");
+
+(function () {
+  var sec = 50;
+  timerEl = setInterval(() => {
+    timerEl.textContent = "50:" - sec;
+    sec--;
+  }, 1000);
+})();
 
 //creating question array
 var questions = [
