@@ -1,7 +1,7 @@
-var timerEl = document.querySelector("#timer");
-var correctAnswerEL = document.querySelector("#correctAnswer");
+var timerEl = document.getElementById("timer");
+var correctAnswerEL = document.getElementById("correctAnswer");
 var wrongAnswerEL = document.querySelector(".wrong");
-var startButton = document.querySelector(".startButton");
+var startButton = document.getElementById("start-btn");
 var btn1 = document.getElementById("btn1");
 var btn2 = document.getElementById("btn2");
 var btn3 = document.getElementById("btn3");
@@ -14,6 +14,13 @@ var btn4 = document.getElementById("btn4");
     sec--;
   }, 1000);
 })();
+
+function startGame() {
+  console.log("start");
+  // $(".hide").css({ display: "block" });
+  // $("answerBtn").css({ display: "none" });
+  // $("");
+}
 
 //creating question array
 var questions = [
