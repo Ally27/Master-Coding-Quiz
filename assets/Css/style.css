@@ -1,35 +1,94 @@
-*{
+*::before, * ::after{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef7fa;
 }
 
 .group{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     height:100%;
+    font-size: 200%;
 }
 
-html,
+a,
 h1{
-    background-color: #eef7fa;
+
+    background-color: #396574;
     text-decoration: underline;
-    color: #000000;
+    color: #ffffff;
     padding: 2%;
+    width: 100vh;
+    margin-top: 0;
 }
+
+h2{
+
+    text-align: center;
+}
+
 
 header{
+    margin-top: 0;
+    background-color:#eef7fa;
     text-align: center;
 }
-/* Mqc means Master coding quiz and is used in a class*/
+
 .Mqc{
-    text-align: center;
+text-align: center;
 }
+
+ul{
+    list-style-type: none;  
+}
+
+/* Start and Next buttons */
+button,
+#box{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #276d88;
+    padding: 15px;
+    width: 200px;
+    margin:10%
+}
+.next-btn:hover{
+    background-color: #184455;
+    color: #ffffff;
+    cursor: pointer;  
+}
+.start-btn:hover{
+    background-color: #184455;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+    margin: 25px;
+}
+
 .coding{
     color:#276d88
 }
 
-h3{
-  
+#timer{
+    color:#ff0000;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
-#time{
-    color:#276d88
+.hide{
+    display: none;
 }
