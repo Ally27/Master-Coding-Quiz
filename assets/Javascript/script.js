@@ -7,6 +7,12 @@ var btn2 = document.getElementById("btn2");
 var btn3 = document.getElementById("btn3");
 var btn4 = document.getElementById("btn4");
 
+function startGame() {
+  console.log("start");
+  startButton.classList.add("hide");
+  correctAnswerEL.classList.remove("hide");
+}
+
 (function () {
   var sec = 50;
   timerEl = setInterval(() => {
@@ -14,13 +20,6 @@ var btn4 = document.getElementById("btn4");
     sec--;
   }, 1000);
 })();
-
-function startGame() {
-  console.log("start");
-  // $(".hide").css({ display: "block" });
-  // $("answerBtn").css({ display: "none" });
-  // $("");
-}
 
 //creating question array
 var questions = [
