@@ -23,10 +23,9 @@
                 <a href="highscore.html">Highscore Page</a>
             </nav>
 
-            <!--Main menu of game-->
             <h1>Master Coding Quiz</h1>
             <p>Correct:<span id="correctAnswer">0</span></p>
-            <p> Time:<span id="timer">120</span></p>
+            <p> Time:<span id="timer">50</span></p>
             
         </header>
         
@@ -38,12 +37,21 @@
             <p>Test your knowledge in Javascript related questions!<br> This quiz game is timed and with each wrong answer the timer drops ten seconds! 
                 <br> Best of Luck!
             </p>
-            
-            <button class="startButton"> Start Quiz</button>
+
+            <div>
+
+                <button id="start-btn" class="startButton"> Start Quiz</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+                <button type ="button" class="a" id="btn1">a</button>
+                <button type ="button" class="b" id="btn2">b</button>
+                <button type ="button" class="c" id="btn3">c</button>
+                <button type ="button" class="d" id="btn4">d</button>
+
+            </div>
 
 
         </div>
-
+        <div id ="question" class="hide"></div>
         <div id="timer"></div>
     </div>
     <script src="./assets/Javascript/script.js"></script>
