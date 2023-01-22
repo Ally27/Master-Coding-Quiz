@@ -1,0 +1,33 @@
+*::before, * ::after{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef7fa;
+    
+}
+
+
+nav{
+    display: flex;
+    text-align: center;
+}
+
+.link,
+h1,
+h2{
+    text-align: center;
+    background-color: #396574;
+    text-decoration: underline;
+    color: #ffffff;
+    padding: 0;
+    width: 100vh;
+    margin:0;
+}
