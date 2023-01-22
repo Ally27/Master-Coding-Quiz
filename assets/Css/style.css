@@ -49,6 +49,25 @@ text-align: center;
 ul{
     list-style-type: none;  
 }
+.a,
+.b,
+.c,
+.d{
+display: flex;
+justify-content: left;
+padding: 15px;
+}
+
+
+.a:hover,
+.b:hover,
+.c:hover,
+.d:hover{
+    background-color: #143947;
+    color: #ffffff;
+    cursor: pointer; 
+}
+
 
 /* Start and Next buttons */
 button,
@@ -57,8 +76,8 @@ button,
     font-size: 20px;
     font-weight: bold;
     border: 3px solid #276d88;
-    padding: 15px;
-    width: 200px;
+    border-radius: 2%;
+    padding: 2px;
     margin:10%
 }
 .next-btn:hover{
@@ -77,6 +96,7 @@ button,
     grid-template-columns: repeat(1, auto);
     gap: 10px;
     margin: 25px;
+    justify-items: start;
 }
 
 .coding{
